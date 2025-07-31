@@ -20,10 +20,12 @@ public class Product {
 
     private Date date;
 
+
+    
     private String code;
 
 
-    
+
 
 
 }
