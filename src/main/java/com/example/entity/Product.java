@@ -2,6 +2,8 @@ package com.example.entity;
 
 import jakarta.persistence.*;
 
+import java.util.Date;
+
 @Entity
 @Table
 public class Product {
@@ -11,4 +13,6 @@ public class Product {
     private Long id;
 
     private String name;
+
+    private Date date;
 }
