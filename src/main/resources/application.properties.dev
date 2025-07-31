@@ -1,6 +1,4 @@
-spring.application.name=example
-active.profile=dev
-spring.datasource.url=jdbc:sqlserver://localhost:1433;databaseName=product;encrypt=true;trustServerCertificate=true
+spring.datasource.url=jdbc:sqlserver://sqlserver:1433;databaseName=product;encrypt=true;trustServerCertificate=true
 spring.datasource.username=sa
 spring.datasource.password=Alaa123Strong!
 spring.datasource.driver-class-name=com.microsoft.sqlserver.jdbc.SQLServerDriver
